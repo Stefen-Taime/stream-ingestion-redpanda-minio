@@ -32,7 +32,7 @@ services:
     depends_on:
       - redpanda
     ports:
-      - "5000:8080"
+      - "5555:8080"
     env_file:
       - .env
     networks:
